@@ -1,0 +1,11 @@
+{
+    "kpis": {
+        "total_promesas_mes": 100000,
+        "cantidad_gestiones_ayer": 500,
+        "tiempo_muerto_avg": "10%"
+    },
+    "carrera": {
+        "nombres": ["Asesor A", "Asesor B", "Asesor C"],
+        "montos": [50000, 30000, 20000]
+    }
+}
