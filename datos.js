@@ -1,14 +1,14 @@
 const datosDaimler = {
     "kpis": {
-        "total_promesas_mes": 494,
-        "cantidad_gestiones_ayer": 4854,
-        "efectividad_ayer": 1.46,
-        "tiempo_muerto_pct": 46.8,
-        "promedio_por_asesor": 202,
-        "rpc_pct": 3.3
+        "total_promesas_mes": 970,
+        "cantidad_gestiones_ayer": 4673,
+        "efectividad_ayer": 2.08,
+        "tiempo_muerto_pct": 46.5,
+        "promedio_por_asesor": 203,
+        "rpc_pct": 2.4
     },
     "premios": {
-        "efectividad": "KALED SOSA",
+        "efectividad": "INGRID LIZETH MUCIO",
         "trabajador": "DIANA PAOLA LICEA",
         "racha": "KALED SOSA"
     },
@@ -16,26 +16,26 @@ const datosDaimler = {
         "nombres": [
             "KALED SOSA",
             "AURORA MARTINEZ",
-            "CELESTE ABIGAIL PUENTE",
             "INGRID LIZETH MUCIO",
+            "CELESTE ABIGAIL PUENTE",
             "CARIM JAZIEL GAUNA",
             "JAZMIN CARRIZALES",
-            "JESUS ANDRADE",
             "GERARDO PARRA",
-            "MAURICIO AGUIRRE",
-            "JETRO ABDIEL HERNANDEZ"
+            "JETRO ABDIEL HERNANDEZ",
+            "JESUS ANDRADE",
+            "MAURICIO AGUIRRE"
         ],
         "cantidades": [
-            60,
-            45,
-            42,
-            41,
-            39,
-            31,
-            24,
-            21,
-            21,
-            21
+            122,
+            100,
+            94,
+            71,
+            70,
+            54,
+            44,
+            43,
+            43,
+            36
         ]
     },
     "grafica_hora": {
@@ -55,29 +55,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            725,
-            864,
-            771,
-            463,
-            505,
-            493,
-            655,
-            124,
-            93,
-            39,
-            22,
-            18,
-            25
+            619,
+            639,
+            500,
+            385,
+            476,
+            473,
+            706,
+            249,
+            217,
+            46,
+            90,
+            117,
+            108
         ]
     },
     "contactability": {
-        "CLIENTE ABANDONA LA LLAMADA": 75,
-        "PROMESA DE PAGO": 71,
-        "TELÉFONO EQUIVOCADO": 41,
-        "DICE QUE YA PAGÓ": 38,
-        "NEGATIVA DE PAGO": 29,
-        "ACLARACIÓN": 20,
-        "RECADO CON FAMILIAR": 15,
+        "PROMESA DE PAGO": 56,
+        "CLIENTE ABANDONA LA LLAMADA": 56,
+        "TELÉFONO EQUIVOCADO": 43,
+        "ACLARACIÓN": 25,
+        "DICE QUE YA PAGÓ": 18,
+        "RECADO CON FAMILIAR": 17,
+        "NEGATIVA DE PAGO": 12,
         "DISMINUCIÓN DE INGRESOS": 12
     }
 };
