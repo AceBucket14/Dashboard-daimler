@@ -1,41 +1,41 @@
 const datosDaimler = {
     "kpis": {
-        "total_promesas_mes": 970,
-        "cantidad_gestiones_ayer": 4673,
-        "efectividad_ayer": 2.08,
-        "tiempo_muerto_pct": 46.5,
-        "promedio_por_asesor": 203,
-        "rpc_pct": 2.4
+        "total_promesas_mes": 844,
+        "cantidad_gestiones_ayer": 5059,
+        "efectividad_ayer": 1.4,
+        "tiempo_muerto_pct": 48.8,
+        "promedio_por_asesor": 195,
+        "rpc_pct": 3.3
     },
     "premios": {
-        "efectividad": "INGRID LIZETH MUCIO",
-        "trabajador": "DIANA PAOLA LICEA",
+        "efectividad": "ANIBAL REYNA",
+        "trabajador": "BRAYAN YAHIR HERNANDEZ",
         "racha": "KALED SOSA"
     },
     "carrera": {
         "nombres": [
             "KALED SOSA",
-            "AURORA MARTINEZ",
             "INGRID LIZETH MUCIO",
-            "CELESTE ABIGAIL PUENTE",
+            "AURORA MARTINEZ",
             "CARIM JAZIEL GAUNA",
             "JAZMIN CARRIZALES",
+            "NATALIA JARETZI SALINAS",
+            "CELESTE ABIGAIL PUENTE",
             "GERARDO PARRA",
-            "JETRO ABDIEL HERNANDEZ",
-            "JESUS ANDRADE",
-            "MAURICIO AGUIRRE"
+            "BRANDON ALEXIS HERNANDEZ",
+            "BRAYAN YAHIR HERNANDEZ"
         ],
         "cantidades": [
-            122,
-            100,
-            94,
-            71,
-            70,
-            54,
-            44,
-            43,
-            43,
-            36
+            92,
+            86,
+            76,
+            66,
+            55,
+            48,
+            42,
+            41,
+            38,
+            37
         ]
     },
     "grafica_hora": {
@@ -55,29 +55,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            619,
-            639,
-            500,
-            385,
-            476,
-            473,
-            706,
-            249,
-            217,
-            46,
-            90,
-            117,
-            108
+            570,
+            792,
+            668,
+            508,
+            444,
+            516,
+            172,
+            302,
+            287,
+            196,
+            187,
+            170,
+            245
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 56,
-        "CLIENTE ABANDONA LA LLAMADA": 56,
-        "TELÉFONO EQUIVOCADO": 43,
-        "ACLARACIÓN": 25,
-        "DICE QUE YA PAGÓ": 18,
-        "RECADO CON FAMILIAR": 17,
-        "NEGATIVA DE PAGO": 12,
-        "DISMINUCIÓN DE INGRESOS": 12
+        "CLIENTE ABANDONA LA LLAMADA": 96,
+        "PROMESA DE PAGO": 69,
+        "ACLARACIÓN": 58,
+        "TELÉFONO EQUIVOCADO": 39,
+        "DICE QUE YA PAGÓ": 32,
+        "RECADO CON FAMILIAR": 26,
+        "MENSAJE CON TERCEROS": 13,
+        "NEGATIVA DE PAGO": 9
     }
 };
