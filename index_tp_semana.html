@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Daimler - Diario</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="datos_semana.js"></script>
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --blue: #38bdf8; --gold: #fbbf24; --red: #ef4444; --green: #22c55e; }
+        * { box-sizing: border-box; }
+        body { background: var(--bg); color: white; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0 10px 10px 10px; overflow: hidden; height: 100vh; display: flex; flex-direction: column; }
+        
+        .header-banner { background: linear-gradient(90deg, rgba(30,41,59,0) 0%, rgba(30,41,59,1) 50%, rgba(30,41,59,0) 100%); border-bottom: 2px solid var(--blue); padding: 12px 0; margin-bottom: 10px; }
+        h1 { text-align:center; font-size: 1.8rem; margin: 0; text-transform: uppercase; letter-spacing: 5px; font-weight: 900; color: white; text-shadow: 0 0 15px var(--blue); }
+        
+        .awards { display: flex; gap: 10px; height: 11vh; margin-bottom: 10px; }
+        .award-card { flex: 1; border-radius: 8px; text-align: center; background: var(--card); border-bottom: 4px solid transparent; display: flex; flex-direction: column; justify-content: center; }
+        .award-label { font-size: 0.7rem; color: #94a3b8; font-weight: bold; }
+        
+        /* NOMBRE PROMINENTE EN MEDALLAS */
+        .award-name { font-size: 1.5rem; font-weight: 900; margin-top: 4px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+
+        .main-grid { display: grid; grid-template-columns: 2.2fr 1fr; gap: 10px; height: 50vh; margin-bottom: 10px; }
+        .bottom-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 10px; height: 25vh; }
+        
+        .card { background: var(--card); padding: 12px; border-radius: 10px; border: 1px solid #334155; position: relative; display: flex; flex-direction: column; overflow: hidden; }
+        .kpi-column { display: flex; flex-direction: column; gap: 8px; height: 100%; }
+        .kpi-card { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+        
+        .kpi-label { font-size: 0.8rem; color: #94a3b8; font-weight: bold; text-transform: uppercase; margin-bottom: 2px; }
+        .kpi-val { font-size: 3rem; font-weight: 900; color: var(--blue); line-height: 1; text-shadow: 0 0 10px rgba(56,189,248,0.3); }
+
+        .res-item { display: flex; justify-content: space-between; font-size: 0.8rem; padding: 4px 0; border-bottom: 1px solid #334155; font-weight: 600; }
+        .split-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; height: 100%; }
+    </style>
+</head>
+<body>
+    <div class="header-banner"><h1>🚀 SEMANA - DAIMLER GABSSA</h1></div>
+    <div class="awards">
+        <div class="award-card" style="border-color: var(--gold);"><div class="award-label">⭐ TOP EFECTIVIDAD</div><div id="w-efec" class="award-name" style="color: var(--gold);">---</div></div>
+        <div class="award-card" style="border-color: var(--blue);"><div class="award-label">📞 MÁS TRABAJADOR</div><div id="w-trab" class="award-name" style="color: var(--blue);">---</div></div>
+        <div class="award-card" style="border-color: var(--red);"><div class="award-label">🔥 MEJOR RACHA</div><div id="w-racha" class="award-name" style="color: var(--red);">---</div></div>
+    </div>
+    <div class="main-grid">
+        <div class="card">
+            <div class="kpi-label" style="color: var(--blue);">🏆 Ranking de Reactivaciones (Ayer)</div>
+            <div style="flex-grow:1;"><canvas id="chartCarrera"></canvas></div>
+        </div>
+        <div class="kpi-column">
+            <div class="card kpi-card"><div class="kpi-label">Gestiones Semana</div><div id="v-gest" class="kpi-val">0</div></div>
+            <div class="card kpi-card"><div class="kpi-label">Promesas Semana</div><div id="v-react" class="kpi-val">0</div></div>
+            <div class="card kpi-card"><div class="kpi-label">RPC Global</div><div id="v-rpc-main" class="kpi-val" style="color:var(--green)">0%</div></div>
+        </div>
+    </div>
+    <div class="bottom-grid">
+        <div class="card"><div class="kpi-label">📈 Marcación por Hora</div><div style="flex-grow:1;"><canvas id="chartHora"></canvas></div></div>
+        <div class="card"><div class="kpi-label">📊 Top Contactabilidad</div><div id="lista-res" style="margin-top:2px;"></div></div>
+        <div class="split-cards">
+            <div class="card" style="border: 2px solid var(--blue); align-items: center; justify-content: center; background: linear-gradient(180deg, #1e3a4a 0%, var(--card) 100%);">
+                <div class="kpi-label" style="color: var(--blue);">🔥 Promedio</div><div id="v-promedio" style="font-size: 2.8rem; font-weight: 900;">0</div><div style="font-size: 0.6rem; font-weight: bold; color: var(--blue);">GEST / PERS</div>
+            </div>
+            <div class="card" style="border: 2px solid var(--green); align-items: center; justify-content: center; background: linear-gradient(180deg, #1a3a2a 0%, var(--card) 100%);">
+                <div class="kpi-label" style="color: var(--green);">📞 RPC %</div><div id="v-rpc" style="font-size: 2.8rem; font-weight: 900;">0%</div><div style="font-size: 0.6rem; font-weight: bold; color: var(--green);">CONTACTO REAL</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function update() {
+            if (typeof datosDaimler === 'undefined') return;
+            const d = datosDaimler;
+            document.getElementById('w-efec').innerText = d.premios.efectividad;
+            document.getElementById('w-trab').innerText = d.premios.trabajador;
+            document.getElementById('w-racha').innerText = d.premios.racha;
+            document.getElementById('v-gest').innerText = d.kpis.total_gestiones.toLocaleString();
+            document.getElementById('v-react').innerText = d.kpis.total_promesas.toLocaleString();
+            document.getElementById('v-rpc-main').innerText = d.kpis.rpc_pct + '%';
+            document.getElementById('v-promedio').innerText = d.kpis.promedio_por_asesor;
+            document.getElementById('v-rpc').innerText = d.kpis.rpc_pct + '%';
+            document.getElementById('lista-res').innerHTML = Object.entries(d.contactability).map(([k,v]) => `<div class="res-item"><span>${k}</span><b style="color: var(--blue)">${v}</b></div>`).join('');
+            
+            new Chart(document.getElementById('chartCarrera'), { 
+                type: 'bar', 
+                data: { labels: d.carrera.nombres, datasets: [{ data: d.carrera.cantidades, backgroundColor: '#38bdf8', borderRadius: 5 }] }, 
+                options: { 
+                    indexAxis: 'y', maintainAspectRatio: false, plugins: { legend: { display: false } }, 
+                    scales: { 
+                        x: { ticks: { color: '#fff', font: {size: 12, weight: 'bold'} } }, 
+                        y: { ticks: { color: '#fff', font: {size: 15, weight: '900'} } } 
+                    } 
+                } 
+            });
+            new Chart(document.getElementById('chartHora'), { type: 'line', data: { labels: d.grafica_hora.horas, datasets: [{ data: d.grafica_hora.conteo, borderColor: '#38bdf8', backgroundColor: 'rgba(56,189,248,0.2)', fill: true, tension: 0.4, pointRadius: 0 }] }, options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { ticks: { color: '#94a3b8' } }, y: { display: false } } } });
+        }
+        window.onload = update;
+    </script>
+</body>
+</html>
