@@ -1,41 +1,41 @@
 const datosDaimler = {
     "kpis": {
-        "total_promesas_mes": 844,
-        "cantidad_gestiones_ayer": 5059,
-        "efectividad_ayer": 1.4,
-        "tiempo_muerto_pct": 48.8,
-        "promedio_por_asesor": 195,
-        "rpc_pct": 3.3
+        "total_promesas_mes": 1448,
+        "cantidad_gestiones_ayer": 5733,
+        "efectividad_ayer": 1.33,
+        "tiempo_muerto_pct": 37.1,
+        "promedio_por_asesor": 239,
+        "rpc_pct": 2.4
     },
     "premios": {
-        "efectividad": "ANIBAL REYNA",
-        "trabajador": "BRAYAN YAHIR HERNANDEZ",
-        "racha": "KALED SOSA"
+        "efectividad": "CARIM JAZIEL GAUNA",
+        "trabajador": "DIANA PAOLA LICEA",
+        "racha": "AURORA MARTINEZ"
     },
     "carrera": {
         "nombres": [
-            "KALED SOSA",
-            "INGRID LIZETH MUCIO",
             "AURORA MARTINEZ",
             "CARIM JAZIEL GAUNA",
+            "INGRID LIZETH MUCIO",
+            "KALED SOSA",
+            "BRANDON ALEXIS HERNANDEZ",
             "JAZMIN CARRIZALES",
             "NATALIA JARETZI SALINAS",
-            "CELESTE ABIGAIL PUENTE",
+            "BRAYAN YAHIR HERNANDEZ",
             "GERARDO PARRA",
-            "BRANDON ALEXIS HERNANDEZ",
-            "BRAYAN YAHIR HERNANDEZ"
+            "MAURICIO AGUIRRE"
         ],
         "cantidades": [
+            150,
+            136,
+            128,
             92,
-            86,
-            76,
+            84,
+            82,
+            70,
             66,
-            55,
-            48,
-            42,
-            41,
-            38,
-            37
+            66,
+            63
         ]
     },
     "grafica_hora": {
@@ -55,29 +55,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            570,
-            792,
-            668,
-            508,
-            444,
-            516,
-            172,
-            302,
-            287,
-            196,
-            187,
-            170,
-            245
+            748,
+            817,
+            814,
+            572,
+            556,
+            634,
+            919,
+            143,
+            143,
+            112,
+            67,
+            97,
+            87
         ]
     },
     "contactability": {
-        "CLIENTE ABANDONA LA LLAMADA": 96,
-        "PROMESA DE PAGO": 69,
-        "ACLARACIÓN": 58,
-        "TELÉFONO EQUIVOCADO": 39,
-        "DICE QUE YA PAGÓ": 32,
-        "RECADO CON FAMILIAR": 26,
+        "PROMESA DE PAGO": 75,
+        "CLIENTE ABANDONA LA LLAMADA": 59,
+        "DICE QUE YA PAGÓ": 27,
+        "ACLARACIÓN": 27,
+        "TELÉFONO EQUIVOCADO": 25,
         "MENSAJE CON TERCEROS": 13,
-        "NEGATIVA DE PAGO": 9
+        "DISMINUCIÓN DE INGRESOS": 11,
+        "NEGATIVA DE PAGO": 11
     }
 };
