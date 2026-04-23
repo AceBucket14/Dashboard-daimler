@@ -27,11 +27,11 @@
 
     <script>
         // Configuración de la lista de reproducción (solo dashboards)
-        const paginas = [
-            { url: "index.html", tiempo: 40000 },    // Diario (Ayer) - 40 segundos
-            { url: "semanal.html", tiempo: 25000 },  // Acumulado Semanal - 25 segundos
-            { url: "mensual.html", tiempo: 25000 }   // Acumulado Mensual - 25 segundos
-        ];
+    const paginas = [
+    { url: "index_tp_ayer.html", tiempo: 40000 },   // Llama al archivo de Ayer
+    { url: "index_tp_semana.html", tiempo: 25000 }, // Llama al archivo de Semana
+    { url: "index_tp_mes.html", tiempo: 25000 }    // Llama al archivo de Mes
+];
 
         let indiceActual = 0;
         const frame = document.getElementById('contenedor-pantalla');
