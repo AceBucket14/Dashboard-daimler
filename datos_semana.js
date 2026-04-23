@@ -8,7 +8,7 @@ const datosDaimler = {
     },
     "premios": {
         "efectividad": "AURORA MARTINEZ",
-        "trabajador": "ID:57833",
+        "trabajador": "DIANA PAOLA LICEA",
         "racha": "AURORA MARTINEZ"
     },
     "carrera": {
@@ -75,8 +75,8 @@ const datosDaimler = {
         "DICE QUE YA PAGÓ": 244,
         "TELÉFONO EQUIVOCADO": 133,
         "ACLARACIÓN": 105,
-        "RECADO CON FAMILIAR": 59,
         "NEGATIVA DE PAGO": 59,
+        "RECADO CON FAMILIAR": 59,
         "MENSAJE CON TERCEROS": 41
     }
 };

@@ -7,8 +7,8 @@ const datosDaimler = {
         "rpc_pct": 3.8
     },
     "premios": {
-        "efectividad": "AURORA MARTINEZ",
-        "trabajador": "ID:57833",
+        "efectividad": "KALED SOSA",
+        "trabajador": "DIANA PAOLA LICEA",
         "racha": "AURORA MARTINEZ"
     },
     "carrera": {

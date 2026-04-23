@@ -7,8 +7,8 @@ const datosDaimler = {
         "rpc_pct": 2.4
     },
     "premios": {
-        "efectividad": "AURORA MARTINEZ",
-        "trabajador": "ID:57833",
+        "efectividad": "CARIM JAZIEL GAUNA",
+        "trabajador": "DIANA PAOLA LICEA",
         "racha": "AURORA MARTINEZ"
     },
     "carrera": {
