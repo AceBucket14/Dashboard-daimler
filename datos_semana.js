@@ -1,41 +1,19 @@
 const datosDaimler = {
     "periodo": "SEMANAL (LUNES-HOY)",
     "kpis": {
-        "total_promesas": 405,
-        "total_gestiones": 21523,
-        "promedio_por_asesor": 769,
-        "rpc_pct": 4.1
+        "total_promesas": 0,
+        "total_gestiones": 0,
+        "promedio_por_asesor": 0,
+        "rpc_pct": 0
     },
     "premios": {
-        "efectividad": "AURORA MARTINEZ",
-        "trabajador": "DIANA PAOLA LICEA",
-        "racha": "AURORA MARTINEZ"
+        "efectividad": "---",
+        "trabajador": "---",
+        "racha": "---"
     },
     "carrera": {
-        "nombres": [
-            "AURORA MARTINEZ",
-            "CARIM JAZIEL GAUNA",
-            "BRANDON ALEXIS HERNANDEZ",
-            "MARIA DE LOURDES FLORES",
-            "GAEL ZAID LABRA",
-            "ERNESTO LIÑAN",
-            "DIANA PAOLA LICEA",
-            "INGRID LIZETH MUCIO",
-            "MARIBEL CANTU",
-            "NATALIA JARETZI SALINAS"
-        ],
-        "cantidades": [
-            53,
-            37,
-            31,
-            25,
-            21,
-            21,
-            20,
-            20,
-            20,
-            19
-        ]
+        "nombres": [],
+        "cantidades": []
     },
     "grafica_hora": {
         "horas": [
@@ -54,29 +32,20 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            2528,
-            2936,
-            2904,
-            2291,
-            2338,
-            2512,
-            3591,
-            492,
-            432,
-            304,
-            246,
-            359,
-            401
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         ]
     },
-    "contactability": {
-        "PROMESA DE PAGO": 394,
-        "CLIENTE ABANDONA LA LLAMADA": 363,
-        "DICE QUE YA PAGÓ": 290,
-        "TELÉFONO EQUIVOCADO": 166,
-        "ACLARACIÓN": 131,
-        "NEGATIVA DE PAGO": 78,
-        "RECADO CON FAMILIAR": 75,
-        "MENSAJE CON TERCEROS": 57
-    }
+    "contactability": {}
 };

@@ -1,14 +1,14 @@
 const datosDaimler = {
     "periodo": "MENSUAL",
     "kpis": {
-        "total_promesas": 1553,
-        "total_gestiones": 82696,
-        "promedio_por_asesor": 2235,
-        "rpc_pct": 3.8
+        "total_promesas": 1721,
+        "total_gestiones": 92737,
+        "promedio_por_asesor": 2378,
+        "rpc_pct": 3.7
     },
     "premios": {
         "efectividad": "KALED SOSA",
-        "trabajador": "JAZMIN CARRIZALES",
+        "trabajador": "DIANA PAOLA LICEA",
         "racha": "AURORA MARTINEZ"
     },
     "carrera": {
@@ -17,24 +17,24 @@ const datosDaimler = {
             "CARIM JAZIEL GAUNA",
             "INGRID LIZETH MUCIO",
             "BRANDON ALEXIS HERNANDEZ",
-            "KALED SOSA",
             "JAZMIN CARRIZALES",
+            "KALED SOSA",
             "NATALIA JARETZI SALINAS",
             "BRAYAN YAHIR HERNANDEZ",
-            "GERARDO PARRA",
-            "MAURICIO AGUIRRE"
+            "MAURICIO AGUIRRE",
+            "GERARDO PARRA"
         ],
         "cantidades": [
-            161,
-            140,
-            132,
+            171,
+            146,
+            138,
+            103,
+            94,
             92,
-            92,
+            88,
             84,
-            77,
-            72,
-            69,
-            68
+            73,
+            72
         ]
     },
     "grafica_hora": {
@@ -54,29 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            10002,
-            12013,
-            11006,
-            8455,
-            8562,
-            9069,
-            11205,
-            2819,
-            2489,
-            1163,
-            1735,
-            1867,
-            1632
+            11427,
+            13373,
+            12349,
+            9511,
+            9359,
+            10165,
+            12250,
+            3107,
+            2758,
+            1344,
+            2007,
+            2330,
+            2045
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 1529,
-        "CLIENTE ABANDONA LA LLAMADA": 1415,
-        "DICE QUE YA PAGÓ": 775,
-        "TELÉFONO EQUIVOCADO": 702,
-        "ACLARACIÓN": 561,
-        "RECADO CON FAMILIAR": 277,
-        "NEGATIVA DE PAGO": 242,
-        "MENSAJE CON TERCEROS": 220
+        "PROMESA DE PAGO": 1689,
+        "CLIENTE ABANDONA LA LLAMADA": 1575,
+        "DICE QUE YA PAGÓ": 823,
+        "TELÉFONO EQUIVOCADO": 752,
+        "ACLARACIÓN": 615,
+        "RECADO CON FAMILIAR": 300,
+        "NEGATIVA DE PAGO": 263,
+        "MENSAJE CON TERCEROS": 243
     }
 };
