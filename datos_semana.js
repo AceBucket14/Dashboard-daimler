@@ -1,10 +1,10 @@
 const datosDaimler = {
     "periodo": "SEMANAL (LUNES-HOY)",
     "kpis": {
-        "total_promesas": 214,
-        "total_gestiones": 4186,
-        "promedio_por_asesor": 167,
-        "rpc_pct": 4.0
+        "total_promesas": 379,
+        "total_gestiones": 9274,
+        "promedio_por_asesor": 331,
+        "rpc_pct": 3.8
     },
     "premios": {
         "efectividad": "ERNESTO LIÑAN",
@@ -15,26 +15,26 @@ const datosDaimler = {
         "nombres": [
             "AURORA MARTINEZ",
             "CARIM JAZIEL GAUNA",
-            "ANGELICA IVONE KAIRE",
-            "INGRID LIZETH MUCIO",
             "ERNESTO LIÑAN",
-            "MARIA DE LOURDES FLORES",
+            "INGRID LIZETH MUCIO",
+            "ANGELICA IVONE KAIRE",
             "BRANDON ALEXIS HERNANDEZ",
+            "MARIA DE LOURDES FLORES",
             "GAEL ZAID LABRA",
             "BRAYAN YAHIR HERNANDEZ",
-            "NATALIA JARETZI SALINAS"
+            "MYRIAM JANETH SALAS"
         ],
         "cantidades": [
+            50,
+            32,
+            31,
             28,
+            24,
+            24,
+            24,
             21,
             18,
-            16,
-            15,
-            15,
-            13,
-            13,
-            11,
-            10
+            13
         ]
     },
     "grafica_hora": {
@@ -54,29 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            420,
-            537,
-            465,
-            381,
-            288,
-            421,
-            768,
-            148,
-            96,
-            74,
-            145,
-            252,
-            188
+            1133,
+            1266,
+            1061,
+            839,
+            704,
+            963,
+            1539,
+            328,
+            309,
+            168,
+            267,
+            341,
+            334
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 111,
-        "CLIENTE ABANDONA LA LLAMADA": 77,
-        "TELÉFONO EQUIVOCADO": 27,
-        "MENSAJE CON TERCEROS": 23,
-        "RECADO CON FAMILIAR": 21,
-        "DICE QUE YA PAGÓ": 20,
-        "NEGATIVA DE PAGO": 18,
-        "ACLARACIÓN": 17
+        "PROMESA DE PAGO": 194,
+        "CLIENTE ABANDONA LA LLAMADA": 170,
+        "TELÉFONO EQUIVOCADO": 68,
+        "DICE QUE YA PAGÓ": 65,
+        "NEGATIVA DE PAGO": 46,
+        "ACLARACIÓN": 43,
+        "MENSAJE CON TERCEROS": 42,
+        "RECADO CON FAMILIAR": 35
     }
 };

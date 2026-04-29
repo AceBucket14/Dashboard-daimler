@@ -1,40 +1,40 @@
 const datosDaimler = {
     "periodo": "DIARIO (AYER)",
     "kpis": {
-        "total_promesas": 214,
-        "total_gestiones": 4186,
-        "promedio_por_asesor": 167,
-        "rpc_pct": 4.0
+        "total_promesas": 165,
+        "total_gestiones": 5088,
+        "promedio_por_asesor": 204,
+        "rpc_pct": 3.6
     },
     "premios": {
-        "efectividad": "ERNESTO LIÑAN",
+        "efectividad": "ZINDY RAMIREZ",
         "trabajador": "INGRID LIZETH MUCIO",
         "racha": "AURORA MARTINEZ"
     },
     "carrera": {
         "nombres": [
             "AURORA MARTINEZ",
-            "CARIM JAZIEL GAUNA",
-            "ANGELICA IVONE KAIRE",
-            "INGRID LIZETH MUCIO",
             "ERNESTO LIÑAN",
-            "MARIA DE LOURDES FLORES",
+            "INGRID LIZETH MUCIO",
+            "JORGE FRANCO",
             "BRANDON ALEXIS HERNANDEZ",
-            "GAEL ZAID LABRA",
-            "BRAYAN YAHIR HERNANDEZ",
-            "NATALIA JARETZI SALINAS"
+            "CARIM JAZIEL GAUNA",
+            "JAZMIN CARRIZALES",
+            "MYRIAM JANETH SALAS",
+            "MARIA DE LOURDES FLORES",
+            "ALEJANDRO ABRAHAM MARQUEZ"
         ],
         "cantidades": [
-            28,
-            21,
-            18,
+            22,
             16,
-            15,
-            15,
-            13,
-            13,
+            12,
+            12,
             11,
-            10
+            11,
+            10,
+            10,
+            9,
+            8
         ]
     },
     "grafica_hora": {
@@ -54,29 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            420,
-            537,
-            465,
-            381,
-            288,
-            421,
-            768,
-            148,
-            96,
-            74,
-            145,
-            252,
-            188
+            713,
+            729,
+            596,
+            458,
+            416,
+            542,
+            771,
+            180,
+            213,
+            94,
+            122,
+            89,
+            146
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 111,
-        "CLIENTE ABANDONA LA LLAMADA": 77,
-        "TELÉFONO EQUIVOCADO": 27,
-        "MENSAJE CON TERCEROS": 23,
-        "RECADO CON FAMILIAR": 21,
-        "DICE QUE YA PAGÓ": 20,
-        "NEGATIVA DE PAGO": 18,
-        "ACLARACIÓN": 17
+        "CLIENTE ABANDONA LA LLAMADA": 93,
+        "PROMESA DE PAGO": 83,
+        "DICE QUE YA PAGÓ": 45,
+        "TELÉFONO EQUIVOCADO": 41,
+        "NEGATIVA DE PAGO": 28,
+        "ACLARACIÓN": 26,
+        "MENSAJE CON TERCEROS": 19,
+        "RECADO CON FAMILIAR": 14
     }
 };

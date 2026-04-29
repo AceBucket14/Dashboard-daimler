@@ -1,9 +1,9 @@
 const datosDaimler = {
     "periodo": "MENSUAL",
     "kpis": {
-        "total_promesas": 3348,
-        "total_gestiones": 96923,
-        "promedio_por_asesor": 2485,
+        "total_promesas": 3513,
+        "total_gestiones": 102011,
+        "promedio_por_asesor": 2616,
         "rpc_pct": 3.7
     },
     "premios": {
@@ -18,23 +18,23 @@ const datosDaimler = {
             "INGRID LIZETH MUCIO",
             "BRANDON ALEXIS HERNANDEZ",
             "JAZMIN CARRIZALES",
-            "NATALIA JARETZI SALINAS",
             "BRAYAN YAHIR HERNANDEZ",
+            "NATALIA JARETZI SALINAS",
             "KALED SOSA",
             "MAURICIO AGUIRRE",
-            "GERARDO PARRA"
+            "DIANA PAOLA LICEA"
         ],
         "cantidades": [
-            361,
-            281,
-            265,
-            204,
+            383,
+            292,
+            277,
+            215,
+            179,
+            173,
             169,
-            169,
-            166,
             164,
-            139,
-            133
+            143,
+            137
         ]
     },
     "grafica_hora": {
@@ -54,29 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            11847,
-            13910,
-            12814,
-            9892,
-            9647,
-            10586,
-            13018,
-            3255,
-            2854,
-            1418,
-            2152,
-            2582,
-            2233
+            12560,
+            14639,
+            13410,
+            10350,
+            10063,
+            11128,
+            13789,
+            3435,
+            3067,
+            1512,
+            2274,
+            2671,
+            2379
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 1800,
-        "CLIENTE ABANDONA LA LLAMADA": 1652,
-        "DICE QUE YA PAGÓ": 843,
-        "TELÉFONO EQUIVOCADO": 779,
-        "ACLARACIÓN": 632,
-        "RECADO CON FAMILIAR": 321,
-        "NEGATIVA DE PAGO": 281,
-        "MENSAJE CON TERCEROS": 266
+        "PROMESA DE PAGO": 1883,
+        "CLIENTE ABANDONA LA LLAMADA": 1745,
+        "DICE QUE YA PAGÓ": 888,
+        "TELÉFONO EQUIVOCADO": 820,
+        "ACLARACIÓN": 658,
+        "RECADO CON FAMILIAR": 335,
+        "NEGATIVA DE PAGO": 309,
+        "MENSAJE CON TERCEROS": 285
     }
 };
