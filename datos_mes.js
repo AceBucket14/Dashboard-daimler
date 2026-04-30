@@ -1,10 +1,10 @@
 const datosDaimler = {
     "periodo": "MENSUAL",
     "kpis": {
-        "total_promesas": 3513,
-        "total_gestiones": 102011,
-        "promedio_por_asesor": 2616,
-        "rpc_pct": 3.7
+        "total_promesas": 3674,
+        "total_gestiones": 107437,
+        "promedio_por_asesor": 2755,
+        "rpc_pct": 3.6
     },
     "premios": {
         "efectividad": "AURORA MARTINEZ",
@@ -25,16 +25,16 @@ const datosDaimler = {
             "DIANA PAOLA LICEA"
         ],
         "cantidades": [
-            383,
-            292,
-            277,
-            215,
-            179,
-            173,
+            406,
+            307,
+            278,
+            229,
+            188,
+            183,
             169,
             164,
-            143,
-            137
+            157,
+            146
         ]
     },
     "grafica_hora": {
@@ -54,29 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            12560,
-            14639,
-            13410,
-            10350,
-            10063,
-            11128,
-            13789,
-            3435,
-            3067,
-            1512,
-            2274,
-            2671,
-            2379
+            13311,
+            15266,
+            14093,
+            10833,
+            10598,
+            11673,
+            14575,
+            3659,
+            3232,
+            1603,
+            2377,
+            2859,
+            2594
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 1883,
-        "CLIENTE ABANDONA LA LLAMADA": 1745,
-        "DICE QUE YA PAGÓ": 888,
-        "TELÉFONO EQUIVOCADO": 820,
-        "ACLARACIÓN": 658,
-        "RECADO CON FAMILIAR": 335,
-        "NEGATIVA DE PAGO": 309,
-        "MENSAJE CON TERCEROS": 285
+        "PROMESA DE PAGO": 1971,
+        "CLIENTE ABANDONA LA LLAMADA": 1839,
+        "DICE QUE YA PAGÓ": 923,
+        "TELÉFONO EQUIVOCADO": 862,
+        "ACLARACIÓN": 673,
+        "RECADO CON FAMILIAR": 348,
+        "NEGATIVA DE PAGO": 322,
+        "MENSAJE CON TERCEROS": 294
     }
 };
