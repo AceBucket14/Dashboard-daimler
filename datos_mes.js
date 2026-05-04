@@ -1,40 +1,40 @@
 const datosDaimler = {
     "periodo": "MENSUAL",
     "kpis": {
-        "total_promesas": 3674,
-        "total_gestiones": 107437,
-        "promedio_por_asesor": 2755,
-        "rpc_pct": 3.6
+        "total_promesas": 107,
+        "total_gestiones": 3019,
+        "promedio_por_asesor": 144,
+        "rpc_pct": 7.5
     },
     "premios": {
-        "efectividad": "AURORA MARTINEZ",
-        "trabajador": "DIANA PAOLA LICEA",
-        "racha": "AURORA MARTINEZ"
+        "efectividad": "MARIBEL CANTU",
+        "trabajador": "INGRID LIZETH MUCIO",
+        "racha": "CARIM JAZIEL GAUNA"
     },
     "carrera": {
         "nombres": [
-            "AURORA MARTINEZ",
             "CARIM JAZIEL GAUNA",
+            "GAEL ZAID LABRA",
+            "MARIA DE LOURDES FLORES",
+            "DIANA PAOLA LICEA",
             "INGRID LIZETH MUCIO",
-            "BRANDON ALEXIS HERNANDEZ",
+            "MARIBEL CANTU",
+            "MYRIAM JANETH SALAS",
+            "ERNESTO LIÑAN",
             "JAZMIN CARRIZALES",
-            "BRAYAN YAHIR HERNANDEZ",
-            "NATALIA JARETZI SALINAS",
-            "KALED SOSA",
-            "MAURICIO AGUIRRE",
-            "DIANA PAOLA LICEA"
+            "LYDIA IVETH LOZANO"
         ],
         "cantidades": [
-            406,
-            307,
-            278,
-            229,
-            188,
-            183,
-            169,
-            164,
-            157,
-            146
+            11,
+            11,
+            11,
+            9,
+            9,
+            9,
+            9,
+            8,
+            6,
+            6
         ]
     },
     "grafica_hora": {
@@ -54,29 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            13311,
-            15266,
-            14093,
-            10833,
-            10598,
-            11673,
-            14575,
-            3659,
-            3232,
-            1603,
-            2377,
-            2859,
-            2594
+            483,
+            391,
+            354,
+            291,
+            226,
+            312,
+            198,
+            115,
+            105,
+            49,
+            138,
+            188,
+            168
         ]
     },
     "contactability": {
-        "PROMESA DE PAGO": 1971,
-        "CLIENTE ABANDONA LA LLAMADA": 1839,
-        "DICE QUE YA PAGÓ": 923,
-        "TELÉFONO EQUIVOCADO": 862,
-        "ACLARACIÓN": 673,
-        "RECADO CON FAMILIAR": 348,
-        "NEGATIVA DE PAGO": 322,
-        "MENSAJE CON TERCEROS": 294
+        "CLIENTE ABANDONA LA LLAMADA": 113,
+        "PROMESA DE PAGO": 105,
+        "DICE QUE YA PAGÓ": 60,
+        "TELÉFONO EQUIVOCADO": 59,
+        "ACLARACIÓN": 35,
+        "NEGATIVA DE PAGO": 27,
+        "MENSAJE CON TERCEROS": 25,
+        "RECADO CON FAMILIAR": 20
     }
 };
