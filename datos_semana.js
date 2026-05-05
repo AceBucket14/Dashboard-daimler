@@ -1,19 +1,41 @@
 const datosDaimler = {
     "periodo": "SEMANAL (LUNES-HOY)",
     "kpis": {
-        "total_promesas": 0,
-        "total_gestiones": 0,
-        "promedio_por_asesor": 0,
-        "rpc_pct": 0
+        "total_promesas": 145,
+        "total_gestiones": 5729,
+        "promedio_por_asesor": 205,
+        "rpc_pct": 5.6
     },
     "premios": {
-        "efectividad": "---",
-        "trabajador": "---",
-        "racha": "---"
+        "efectividad": "CARIM JAZIEL GAUNA",
+        "trabajador": "GAEL ZAID LABRA",
+        "racha": "AURORA MARTINEZ"
     },
     "carrera": {
-        "nombres": [],
-        "cantidades": []
+        "nombres": [
+            "AURORA MARTINEZ",
+            "CARIM JAZIEL GAUNA",
+            "INGRID LIZETH MUCIO",
+            "BRANDON ALEXIS HERNANDEZ",
+            "BRAYAN YAHIR HERNANDEZ",
+            "MYRIAM JANETH SALAS",
+            "GAEL ZAID LABRA",
+            "LYDIA IVETH LOZANO",
+            "NATALIA JARETZI SALINAS",
+            "MAURICIO AGUIRRE"
+        ],
+        "cantidades": [
+            15,
+            15,
+            12,
+            11,
+            9,
+            9,
+            9,
+            8,
+            8,
+            8
+        ]
     },
     "grafica_hora": {
         "horas": [
@@ -32,20 +54,29 @@ const datosDaimler = {
             "20h"
         ],
         "conteo": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
+            934,
+            739,
+            621,
+            391,
+            400,
+            575,
+            879,
+            245,
+            218,
+            181,
+            189,
+            107,
+            235
         ]
     },
-    "contactability": {}
+    "contactability": {
+        "PROMESA DE PAGO": 143,
+        "CLIENTE ABANDONA LA LLAMADA": 136,
+        "DICE QUE YA PAGÓ": 107,
+        "TELÉFONO EQUIVOCADO": 68,
+        "ACLARACIÓN": 44,
+        "NEGATIVA DE PAGO": 27,
+        "MENSAJE CON TERCEROS": 25,
+        "RECADO CON FAMILIAR": 22
+    }
 };
